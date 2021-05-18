@@ -5,10 +5,13 @@
  -->
 
 # USB system overview
+# USB系统概述
 
 Zircon provides a full featured USB subsystem enabling the development of USB
 host and peripheral devices. Low, full, high, and super-speed devices are
 supported as well as various standard auto-negotiation mechanisms.
+Zircon提供了一个全面特性的USB子系统，使得USB宿主和外围设备。它支持低速、全速、高速、超高速
+设备，以及各种标准自动协商的机制。
 
 In the host role, Zircon's USB subsystem assumes a tiered approach facilitating
 the lifetime management of devices as they are attached or removed from the bus.
